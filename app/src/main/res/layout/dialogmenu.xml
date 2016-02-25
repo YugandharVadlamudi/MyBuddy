@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMenuBGTransparnt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rlMenuProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivMenuProfile"
+                style="@style/menu_icons_size"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/tvMenuProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivMenuProfile"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="#282828"
+                android:textSize="@dimen/menutextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rlMenuFavourit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivMenuFavourit"
+                style="@style/menu_icons_size"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/favourit" />
+
+            <TextView
+                android:id="@+id/tvMenuFavourit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivMenuFavourit"
+                android:text="Favorite"
+                android:textAlignment="center"
+                android:textColor="#282828"
+                android:textSize="@dimen/menutextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rlMenuChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivMenuChangePassword"
+                style="@style/menu_icons_size"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/changepassword" />
+
+            <TextView
+                android:id="@+id/tvMenuChangePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivMenuChangePassword"
+                android:text="ChangePassword"
+                android:textAlignment="center"
+                android:textColor="#282828"
+                android:textSize="@dimen/menutextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rlMenuLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivMenuLogout"
+                style="@style/menu_icons_size"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:src="@drawable/logout" />
+
+            <TextView
+                android:id="@+id/tvMenuLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivMenuLogout"
+                android:text="Logout"
+                android:textAlignment="center"
+                android:textColor="#282828"
+                android:textSize="@dimen/menutextsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

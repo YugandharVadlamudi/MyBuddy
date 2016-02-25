@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/layoutBackground"
+        android:orientation="vertical">
+        <com.example.chandana.mybuddy.CircularImageView
+            android:id="@+id/ivProfilePecture"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/girl"
+            style="@style/maringIvContactRegistartion"
+            />
+        <EditText
+            android:id="@+id/edProflieFirstName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:textColor="#0b0808"
+            android:background="@drawable/edit_border_remove"
+            android:layout_height="@dimen/SignUp_ed_height"
+            android:textSize="@dimen/edtextsize"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+
+            />
+        />
+        <EditText
+            android:id="@+id/edProfileLastName"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="#0b0808"
+            android:background="@drawable/edit_border_remove"
+            android:layout_height="@dimen/SignUp_ed_height"
+            android:textSize="@dimen/edtextsize"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/llemailUSerProfile"
+            >
+          <!--  <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email id"
+                android:textSize="@dimen/tvEmailProfile" />-->
+            <EditText
+                android:id="@+id/tvProfileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/SignUp_ed_height"
+                android:textSize="@dimen/edtextsize"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textColor="#0b0808"
+                android:background="@drawable/edit_border_remove"
+                android:padding="5dp"
+
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/bvsubmitUpdate"
+            android:text="Submit"
+            style="@style/button_style_userProfile"
+            android:background="@color/headerBackGround"
+            android:textColor="@color/background"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textsize_singUp">26sp</dimen>
+    <dimen name="edtextsize">24sp</dimen>
+    <dimen name="trow_maring">10dp</dimen>
+    <dimen name="singmargin">10dp</dimen>
+    <dimen name="SignUp_ed_height">44dp</dimen>
+    <dimen name="SignUp_ed_cursor_padding">5dp</dimen>
+    <dimen name="header_title_size">22sp</dimen>
+    <dimen name="tvSinginSize" >24sp</dimen>
+    <dimen name="tvSizeList">22sp</dimen>
+    <dimen name="tvPhoneNSize">16sp</dimen>
+    <dimen name="tvEmailProfile">26sp</dimen>
+    <dimen name="buttonSignIn"> 24sp</dimen>
+    <dimen name="tvFavourit">20sp</dimen>
+    <dimen name="tvContactInfo">22sp</dimen>
+    <dimen name="marginEmailUP">15dp</dimen>
+    <dimen name="menutextsize">18sp</dimen>
+</resources>

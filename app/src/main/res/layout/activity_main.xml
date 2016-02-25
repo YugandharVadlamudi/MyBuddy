@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.chandana.mybuddy.MainActivity">
+    <LinearLayout
+        android:id="@+id/ll_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        style="@style/ll_margintop"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_text"
+            android:textAlignment="center"
+            android:textSize="@dimen/tv_Home_Screen_title"
+            android:textColor="@color/headerBackGround"
+            />
+        <LinearLayout
+            style="@style/layout_height_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_layout">
+
+            <ImageView
+                style="@style/EditText_inner_imae"
+                android:layout_gravity="center"
+                android:src="@drawable/email_enter" />
+
+            <EditText
+                android:id="@+id/edS_Login_Email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_border_remove"
+                android:hint="Enter email id"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/tvSinginSize"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/layout_height_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/border_layout">
+
+            <ImageView
+                style="@style/EditText_inner_imae"
+                android:layout_gravity="center"
+                android:src="@drawable/password_icon" />
+
+            <EditText
+                android:id="@+id/edS_Login_Password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_border_remove"
+                android:hint="Password"
+                android:password="true"
+                android:textSize="@dimen/tvSinginSize"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bvS_SignIn_SignIn"
+            style="@style/button_style"
+            android:layout_gravity="center"
+            android:background="@color/headerBackGround"
+            android:onClick="SingIn"
+            android:text="Sign In"
+            android:textColor="@color/background"
+            android:textStyle="bold"
+            android:textSize="@dimen/buttonSignIn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User?"
+            style="@style/newUserStyle"
+            />
+        <TextView
+            android:id="@+id/bvS_SingIn_SignUP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/headerBackGround"
+            style="@style/tv_SingUpStyle"
+            />
+    </LinearLayout>
+</RelativeLayout>

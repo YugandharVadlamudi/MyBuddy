@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        >
+
+        <com.example.chandana.mybuddy.CircularImageView
+            android:id="@+id/ll_circle_imageView"
+            android:src="@drawable/girl"
+            style="@style/circleviewHeightWidth"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/ll_circle_imageView"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/tv_ll_contactname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yuga"
+                android:textSize="@dimen/tvSizeList"
+                android:textStyle="bold"
+               android:textColor="#0b0808"
+                 />
+
+            <TextView
+                android:id="@+id/tv_ll_contactnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="95"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/tvPhoneNSize"
+                android:textColor="#0b0808"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout><!--
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    >
+<TextView
+    android:id="@+id/tv_LL_ContactName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="yuga"
+    android:textColor="#FFFFFF"
+
+    />
+<TextView
+    android:id="@+id/tv_LL_ContactNumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="95"
+    android:textColor="#FFFFFF"
+    android:layout_below="@+id/tv_LL_ContactName"
+
+
+    />
+</RelativeLayout>-->

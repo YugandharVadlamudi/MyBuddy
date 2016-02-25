@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="headerBackGround">#22C098</color>
+    <color name="header_title_color">#FFFFFF</color>
+    <color name="background">#FFFFFF</color>
+    <color name="layoutBackground">#E5E5E5</color>
+    <color name="menuBackground">#7F7F7F</color>
+    <color name="layoutBackgroundview">#E5E5E5</color>
+</resources>

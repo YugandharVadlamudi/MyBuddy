@@ -1,0 +1,161 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+
+        <item name="android:background">#22C098</item>
+
+    </style>
+
+    <style name="No_title" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="CustomTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">50dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="headre_img">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">35dp</item>
+
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slideup</item>
+        <item name="android:windowExitAnimation">@anim/slideupout</item>
+    </style>
+
+    <style name="EditText_inner_imae">
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="layout_height_width">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="button_style_userProfile">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="SingUp_Style">
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="tv_SingUpStyle">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="newUserStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ll_margintop">
+        <item name="android:layout_marginTop">80dp</item>
+    </style>
+
+    <style name="ColunMargin">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="margin_table_textview">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <style name="table_text_size">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="marginCircleIv">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="margintopTableView">
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="maringIvContactRegistartion">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="llemailUSerProfile">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="marginpaddingCRegistration">
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="menu_icons_size">
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="customHeaderHeight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="circleviewHeightWidth">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="favouritheightWidth">
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">35dp</item>
+    </style>
+
+    <style name="userProfileEditTextPading">
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="textsizeMenu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="icon_increase">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+
+        <!-- Base application theme. -->
+        <style name="splashTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+        </style>
+
+        <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+            <item name="android:windowBackground">@drawable/splashscreen</item>
+        </style>
+
+
+</resources>
